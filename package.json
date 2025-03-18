@@ -1,19 +1,17 @@
 {
   "name": "fhir-ts",
-  "module": "index.ts",
-  "type": "module",
+  "description": "The fhir-ts monorepo",
   "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "format:check": "bunx --bun prettier . --check --ignore-unknown",
     "format:fix": "bunx --bun prettier . --write --ignore-unknown"
   },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
   "dependencies": {
-    "prettier": "3.5.3"
+    "prettier": "3.5.3",
+    "turbo": "^2.4.4"
   }
 }
