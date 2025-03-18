@@ -6,12 +6,14 @@
   "workspaces": [
     "packages/*"
   ],
+  "packageManager": "bun@1.2.5",
   "scripts": {
     "format:check": "bunx --bun prettier . --check --ignore-unknown",
-    "format:fix": "bunx --bun prettier . --write --ignore-unknown"
+    "format:fix": "bunx --bun prettier . --write --ignore-unknown",
+    "typecheck": "bunx --bun turbo typecheck"
   },
   "dependencies": {
     "prettier": "3.5.3",
-    "turbo": "^2.4.4"
+    "turbo": "2.4.5-canary.5"
   }
 }

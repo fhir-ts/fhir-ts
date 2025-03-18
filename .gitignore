@@ -3,3 +3,9 @@ node_modules
 
 # System Files
 .DS_Store
+
+# Turborepo Output
+.turbo
+
+# TypeScript Build Output
+.tsbuildinfo

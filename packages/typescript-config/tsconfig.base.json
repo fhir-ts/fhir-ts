@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Base TypeScript Configuration",
+  // Compiler Options HEAVILY inspired by Total TypeScript
+  // See: https://www.totaltypescript.com/tsconfig-cheat-sheet
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "${configDir}",
+    "esModuleInterop": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "lib": ["ES2024"],
+    "module": "Preserve",
+    "moduleDetection": "force",
+    "noEmit": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "outDir": "${configDir/dist",
+    "resolveJsonModule": true,
+    "rootDir": "${configDir}/src",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2024",
+    "tsBuildInfoFile": "${configDir}/.tsbuildinfo",
+    "verbatimModuleSyntax": true
+  },
+  "include": ["${configDir}/src", "${configDir}/src/**/*.json"],
+  "exclude": ["${configDir}/node_modules"]
+}
