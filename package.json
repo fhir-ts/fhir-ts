@@ -3,10 +3,17 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "format:check": "bunx --bun prettier . --check --ignore-unknown",
+    "format:fix": "bunx --bun prettier . --write --ignore-unknown"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "prettier": "3.5.3"
   }
 }
