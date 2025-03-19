@@ -1,6 +1,9 @@
 # Dependencies
 node_modules
 
+# ESlint Cache
+.eslintcache
+
 # System Files
 .DS_Store
 
