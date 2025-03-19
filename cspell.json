@@ -4,10 +4,14 @@
   "words": [
     // FHIR Words
     "fhir",
-    // Misc Words
+    // TS Ecosystem Words
     "bunx",
+    "codegen",
     "eslintcache",
-    "kienle"
+    "turborepo",
+    // Misc Words
+    "bdfn",
+    "kienle" // That's my last name, neat!
   ],
   "files": [
     "*",
