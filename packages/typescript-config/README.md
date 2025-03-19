@@ -1,7 +1,6 @@
 # @fhir-ts/typescript-config
 
-`@fhir-ts/typescript-config` is a package that contains all base `tsconfig.json` files that are used / extended within
-the `fhir-ts` monorepo.
+An internal package that contains all TypeScript configuration files for the fhir-ts monorepo.
 
 ## Installation
 

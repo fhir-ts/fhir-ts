@@ -1,7 +1,7 @@
 {
   "name": "@fhir-ts/typescript-config",
   "version": "0.0.1",
-  "description": "TypeScript configuration files for the fhir-ts monorepo",
+  "description": "An internal package that contains all TypeScript configuration files for the fhir-ts monorepo",
   "keywords": [
     "FHIR",
     "fhir-ts",
