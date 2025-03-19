@@ -7,6 +7,7 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "bunx --bun turbo build",
     "format:check": "bunx --bun prettier . --check --ignore-unknown",
     "format:fix": "bunx --bun prettier . --write --ignore-unknown",
     "lint:check": "bunx --bun turbo lint:check",
