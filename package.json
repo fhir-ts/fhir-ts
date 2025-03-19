@@ -10,12 +10,15 @@
     "build": "bunx --bun turbo build",
     "format:check": "bunx --bun prettier . --check --ignore-unknown",
     "format:fix": "bunx --bun prettier . --write --ignore-unknown",
+    "licenses:check": "bunx --bun license-checker --summary --onlyAllow=\"Apache-2.0;BSD-2-Clause;BSD-3-Clause;CC-BY-3.0;CC0-1.0;ISC;MIT;Python-2.0\"",
+    "licenses:summary": "bunx --bun license-checker",
     "lint:check": "bunx --bun turbo lint:check",
     "lint:fix": "bunx --bun turbo lint:fix",
     "test": "bunx --bun turbo test",
     "typecheck": "bunx --bun turbo typecheck"
   },
   "dependencies": {
+    "license-checker": "^25.0.1",
     "prettier": "3.5.3",
     "turbo": "2.4.5-canary.5"
   },
