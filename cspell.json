@@ -1,0 +1,28 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    // FHIR Words
+    "fhir",
+    // TS Ecosystem Words
+    "bunx",
+    "codegen",
+    "eslintcache",
+    "turborepo",
+    // Misc Words
+    "bdfn",
+    "kienle" // That's my last name, neat!
+  ],
+  "files": [
+    "*",
+    "**/*",
+    "!**/.turbo/*",
+    "!**/dist/*",
+    "!**/coverage/*",
+    "!**/node_modules/*",
+    "!**/test-results/*",
+    "!**/.eslintcache",
+    "!**/.tsbuildinfo",
+    "!**/bun.lock"
+  ]
+}

@@ -1,0 +1,22 @@
+name: CI
+on:
+  pull_request:
+jobs:
+  build-lint-typecheck-test:
+    name: Build, Lint, Typecheck, and Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: streetsidesoftware/cspell-action@v6
+        with:
+          use_cspell_files: true
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.2.5
+      - run: bun install
+      - run: bun run licenses:check
+      - run: bun run build
+      - run: bun run format:check
+      - run: bun run lint:check
+      - run: bun run typecheck
+      - run: bun run test

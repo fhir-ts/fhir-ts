@@ -1,0 +1,18 @@
+# Dependencies
+node_modules
+
+# ESlint Cache
+.eslintcache
+
+# System Files
+.DS_Store
+
+# Test / Coverage Output
+coverage
+test-results
+
+# Turborepo Output
+.turbo
+
+# TypeScript Build Output
+.tsbuildinfo

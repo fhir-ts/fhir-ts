@@ -1,0 +1,41 @@
+{
+  "name": "@fhir-ts/eslint-config",
+  "version": "0.0.1",
+  "description": "An internal package that contains ESLint configuration for the fhir-ts monorepo",
+  "keywords": [
+    "FHIR",
+    "fhir-ts",
+    "TypeScript"
+  ],
+  "homepage": "https://github.com/fhir-ts/fhir-ts#readme",
+  "bugs": {
+    "url": "https://github.com/fhir-ts/fhir-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhir-ts/fhir-ts.git"
+  },
+  "license": "MIT",
+  "author": "James Kienle <hello@jameskienle.com> (https://www.jameskienle.com)",
+  "type": "module",
+  "exports": {
+    ".": "./eslint.config.js"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-package-json": "^0.29.0",
+    "eslint-plugin-tsdoc": "^0.4.0",
+    "typescript-eslint": "^8.26.1"
+  },
+  "devDependencies": {
+    "@fhir-ts/typescript-config": "workspace:*",
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2"
+  }
+}
