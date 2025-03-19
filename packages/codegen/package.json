@@ -1,0 +1,36 @@
+{
+  "name": "@fhir-ts/codegen",
+  "version": "0.0.1",
+  "description": "A CLI that generates TypeScript typings from FHIR implementation guides",
+  "keywords": [
+    "FHIR",
+    "fhir-ts",
+    "TypeScript"
+  ],
+  "homepage": "https://github.com/fhir-ts/fhir-ts#readme",
+  "bugs": {
+    "url": "https://github.com/fhir-ts/fhir-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhir-ts/fhir-ts.git"
+  },
+  "license": "MIT",
+  "author": "James Kienle <hello@jameskienle.com> (https://www.jameskienle.com)",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "lint:check": "bunx --bun eslint --cache .",
+    "lint:fix": "bunx --bun eslint --fix --cache .",
+    "test": "mkdir -p ./test-results && bun test --coverage --coverage-reporter=lcov --coverage-reporter=text --reporter=junit --reporter-outfile=test-results/junit.xml",
+    "typecheck": "bunx --bun tsc"
+  },
+  "devDependencies": {
+    "@fhir-ts/eslint-config": "workspace:*",
+    "@fhir-ts/typescript-config": "workspace:*",
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2"
+  }
+}
