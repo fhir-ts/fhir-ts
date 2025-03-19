@@ -11,6 +11,7 @@
     "format:fix": "bunx --bun prettier . --write --ignore-unknown",
     "lint:check": "bunx --bun turbo lint:check",
     "lint:fix": "bunx --bun turbo lint:fix",
+    "test": "bunx --bun turbo test",
     "typecheck": "bunx --bun turbo typecheck"
   },
   "dependencies": {

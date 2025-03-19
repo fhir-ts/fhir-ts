@@ -21,6 +21,7 @@ const config = defineConfig([
       ...eslint.configs.recommended.rules,
       ...importEslint.flatConfigs.recommended.rules,
       ...importEslint.flatConfigs.errors.rules,
+      'import/no-unresolved': ['error', { ignore: 'bun:test' }],
       'import/order': [
         'error',
         {
@@ -58,6 +59,7 @@ const config = defineConfig([
       ...importEslint.flatConfigs.errors.rules,
       ...importEslint.flatConfigs.typescript.rules,
       'tsdoc/syntax': 'error',
+      'import/no-unresolved': ['error', { ignore: ['bun:test'] }],
       'import/order': [
         'error',
         {

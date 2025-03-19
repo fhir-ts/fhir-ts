@@ -7,6 +7,10 @@ node_modules
 # System Files
 .DS_Store
 
+# Test / Coverage Output
+coverage
+test-results
+
 # Turborepo Output
 .turbo
 

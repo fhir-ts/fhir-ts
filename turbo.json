@@ -9,6 +9,10 @@
       "dependsOn": ["^lint:fix"],
       "outputs": [".eslintcache"]
     },
+    "test": {
+      "dependsOn": ["^test"],
+      "outputs": ["coverage/**", "test-results/**"]
+    },
     "typecheck": {
       "dependsOn": ["^typecheck"],
       "outputs": [".tsbuildinfo"]
