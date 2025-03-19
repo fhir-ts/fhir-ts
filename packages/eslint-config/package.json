@@ -1,7 +1,7 @@
 {
   "name": "@fhir-ts/eslint-config",
   "version": "0.0.1",
-  "description": "ESLint configuration for the fhir-ts monorepo",
+  "description": "An internal package that contains ESLint configuration for the fhir-ts monorepo",
   "keywords": [
     "FHIR",
     "fhir-ts",
