@@ -1,12 +1,11 @@
 {
   "name": "fhir-ts",
-  "description": "The fhir-ts monorepo",
   "private": true,
+  "description": "The fhir-ts monorepo",
   "type": "module",
   "workspaces": [
     "packages/*"
   ],
-  "packageManager": "bun@1.2.5",
   "scripts": {
     "format:check": "bunx --bun prettier . --check --ignore-unknown",
     "format:fix": "bunx --bun prettier . --write --ignore-unknown",
@@ -17,5 +16,6 @@
   "dependencies": {
     "prettier": "3.5.3",
     "turbo": "2.4.5-canary.5"
-  }
+  },
+  "packageManager": "bun@1.2.5"
 }

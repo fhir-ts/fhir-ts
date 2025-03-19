@@ -2,32 +2,32 @@
   "name": "@fhir-ts/typescript-config",
   "version": "0.0.1",
   "description": "TypeScript configuration files for the fhir-ts monorepo",
-  "type": "module",
-  "exports": {
-    "./base": "./tsconfig.base.json",
-    "./library": "./tsconfig.library.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fhir-ts/fhir-ts.git"
-  },
   "keywords": [
     "FHIR",
     "fhir-ts",
     "TypeScript"
   ],
-  "author": "James Kienle <hello@jameskienle.com> (https://www.jameskienle.com)",
-  "license": "MIT",
+  "homepage": "https://github.com/fhir-ts/fhir-ts#readme",
   "bugs": {
     "url": "https://github.com/fhir-ts/fhir-ts/issues"
   },
-  "homepage": "https://github.com/fhir-ts/fhir-ts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhir-ts/fhir-ts.git"
+  },
+  "license": "MIT",
+  "author": "James Kienle <hello@jameskienle.com> (https://www.jameskienle.com)",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "dependencies": {
+    "@types/bun": "^1.2.5"
+  },
   "devDependencies": {
-    "@types/bun": "1.2.5",
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
-    "@types/bun": ">=1.2.5 < 2",
-    "typescript": ">= 5.8.2 < 6"
+    "typescript": "^5.8.2"
   }
 }
