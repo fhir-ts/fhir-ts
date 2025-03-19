@@ -1,3 +1,3 @@
-# fhir-ts
+# FHIR TS
 
 FHIR, now in native TypeScript

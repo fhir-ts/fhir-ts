@@ -1,0 +1,24 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    // FHIR Words
+    "fhir",
+    // Misc Words
+    "bunx",
+    "eslintcache",
+    "kienle"
+  ],
+  "files": [
+    "*",
+    "**/*",
+    "!**/.turbo/*",
+    "!**/dist/*",
+    "!**/coverage/*",
+    "!**/node_modules/*",
+    "!**/test-results/*",
+    "!**/.eslintcache",
+    "!**/.tsbuildinfo",
+    "!**/bun.lock"
+  ]
+}
